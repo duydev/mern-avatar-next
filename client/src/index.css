@@ -1,0 +1,25 @@
+body {
+  background: #eee;
+}
+
+.pages {
+  background: #fff;
+  margin-top: 6px;
+  box-shadow: 10px 10px 5px #707070;
+  padding: 15px;
+}
+
+footer {
+  padding-top: 14px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.page-home button {
+  margin-top: 5px;
+}
+
+#frame {
+  position: absolute;
+  pointer-events: none;
+}
