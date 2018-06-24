@@ -6,12 +6,17 @@
   "author": "Trần Nhật Duy <duytn.hcm@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "mongoose": "^5.1.6"
   },
   "devDependencies": {
+    "babel-register": "^6.26.0",
     "morgan": "^1.9.0",
     "nodemon": "^1.17.5"
   }
